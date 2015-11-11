@@ -58,7 +58,7 @@ public class Invoice implements Payable {
 	// PUBLIC METHODS ++++++++++++++++++++++++++
 	
 	public String toString(){
-		return String.format("Part Numbe: %s%nPart Description: %s%nQuantity: %d%nPrice per Item:$%,.2f", getPartNamber(), getPartDescription(), getQuantity(), getPricePerItem());
+		return String.format("%nPart Numbe: %s%nPart Description: %s%nQuantity: %d%nPrice per Item:$%,.2f", getPartNamber(), getPartDescription(), getQuantity(), getPricePerItem());
 	}
 	
 	public double getPaymentAmount(){
